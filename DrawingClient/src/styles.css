@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bikur-btn{
+    border-radius: 50px;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    min-width: 150px;
+    cursor: pointer;
+ }
+

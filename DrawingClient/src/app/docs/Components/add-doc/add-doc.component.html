@@ -1,0 +1,21 @@
+<h1 mat-mat-dialog-title>Add Document</h1>
+<mat-dialog-content [formGroup]="AddDocForm">
+    <div>
+        <mat-form-field appearance="outline">
+            <mat-label>Enter Document name</mat-label>
+            <input matInput [formControl]="docName">
+            <mat-error *ngIf="docName.invalid">{{getErrorMessage('docName')}}</mat-error>
+        </mat-form-field>
+    </div>
+    <img class="mg-fluid img-thumbnail" [src]="imageUrl">
+    <button type="button" class=" bikur-btn " mat-raised-button color="primary" onclick="fileInput.click()">Add</button> 
+
+    <input type="file" (change)="onFileChange($event)" id="fileInput"
+    accept="image/x-png,image/gif,image/jpeg">
+
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button [mat-dialog-close]="true" class=" bikur-btn " mat-raised-button color="primary">Close</button>
+    <button (click)='onSubmit()' class="bikur-btn" mat-raised-button color="primary"
+    [disabled]="!AddDocForm.valid">Save</button>
+</mat-dialog-actions>

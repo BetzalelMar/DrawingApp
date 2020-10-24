@@ -1,0 +1,16 @@
+.header{
+    height: 150px;
+    background-color: rgb(90, 86, 86);
+
+}
+
+.content{
+    border-radius: 75px 75px 0 0;
+    background-color: #e8e0e0;
+    margin-top: -70px;
+    height:calc(100% - 80px) ;
+}
+
+ .doc{
+    height: 150px;
+}

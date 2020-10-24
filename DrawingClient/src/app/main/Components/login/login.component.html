@@ -1,0 +1,28 @@
+<mat-card color="primary">
+            <h1 mat-card-title >Log In Form</h1>
+        <mat-card-content [formGroup]="LogInForm" [style.fontSize.px]="18">
+            <div>
+                <mat-form-field appearance="outline">
+                    <mat-label>Enter your email</mat-label>
+                    <input matInput placeholder="pat@example.com" formControlName="email">
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage('email')}}</mat-error>
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field appearance="outline">
+                    <mat-label>Enter your password</mat-label>
+                    <input matInput [type]="hide ? 'password' : 'text'" formControlName="password">
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                        [attr.aria-pressed]="hide">
+                        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                    <mat-error *ngIf="password.invalid">{{getErrorMessage('password')}}</mat-error>
+
+                </mat-form-field>
+            </div>
+        </mat-card-content>
+        <mat-card-actions>
+            <button class="bikur-btn float-right" mat-flat-button mat-button color="primary"
+                [disabled]="!LogInForm.valid" (click)="onSubmit()">Submit</button>
+        </mat-card-actions>
+</mat-card>

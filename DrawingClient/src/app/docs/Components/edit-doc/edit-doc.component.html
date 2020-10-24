@@ -1,0 +1,19 @@
+<h1 mat-dialog-title> edit document </h1>
+
+
+<mat-dialog-content>
+    <app-doc  #Doc [doc]="data"></app-doc>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button class="bikur-btn" mat-raised-button color="primary" type="button" (click)="onEllipse()">Ellipse</button>
+    <button class="bikur-btn" mat-raised-button color="primary" type="button" (click)="onRec()">Rectangle</button>
+   
+    <button class="bikur-btn" mat-raised-button color="primary"  [style.color]="color.foreColor" (click)="fcolor.click()">fcolor <input matInput type="color" #fcolor ></button>
+   
+    <button class="bikur-btn" mat-raised-button color="primary"[style.color]="color.backColor" (click)="bcolor.click()">Bcolor     <input matInput type="color" #bcolor>
+    </button>
+
+    <button  class="bikur-btn" mat-stroked-button color="primary" (click)="clearMarkers()">Clear</button>
+    <button [mat-dialog-close]="true" class=" bikur-btn " mat-raised-button color="primary">Close</button>
+</mat-dialog-actions>
+

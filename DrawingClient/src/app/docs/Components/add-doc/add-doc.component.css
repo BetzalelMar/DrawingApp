@@ -1,0 +1,19 @@
+mat-form-field{
+    display: inline;
+    font-size: 18px;
+}
+mat-dialog-content{
+    /* display: inline; */
+    font-size: 18px;
+}
+.bikur-btn{
+    border-radius: 50px;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    min-width: 150px;
+    cursor: pointer;
+ }
+ #fileInput{
+      display: none; 
+ }

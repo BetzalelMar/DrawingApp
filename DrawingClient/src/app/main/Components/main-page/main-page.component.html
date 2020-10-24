@@ -1,0 +1,22 @@
+<mat-toolbar color="primary" class="header">
+    <mat-toolbar-row>
+        <!--  <span>HOME</span> -->
+        <!-- <span><a href="/">HOME</a></span> -->
+        <h1>Welcome to betzalel's drawing app !!</h1>
+
+        <span class="spacer"></span>
+        <button mat-button  (click)="onRegisterDialog()">Register</button>
+        <button mat-button  (click)="onLogInDialog()">Login</button>
+        <button mat-button  (click)="onAddDialog()">Add</button>
+
+       <app-log-out></app-log-out>
+       <a mat-button routerLink="/docs">docs</a>
+
+    </mat-toolbar-row>
+</mat-toolbar>
+
+
+<div class="content">
+
+    <router-outlet></router-outlet>
+</div>
