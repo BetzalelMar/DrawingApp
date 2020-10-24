@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jDY5m88VfWBN5cJwIkivbgJkgTe9PXWKYfdbb1IC6lZ9mynhhJlhde35Zds3Wyr8iwkjBQ91b18pdGW+cE1+5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\SharedDal\\SharedDal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
+    "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512",
+    "C:\\Users\\BM\\.nuget\\packages\\odp.netcore\\2.0.12\\odp.netcore.2.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

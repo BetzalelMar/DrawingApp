@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Contracts" Version="1.0.8" />
+    <PackageReference Include="DALContracts" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

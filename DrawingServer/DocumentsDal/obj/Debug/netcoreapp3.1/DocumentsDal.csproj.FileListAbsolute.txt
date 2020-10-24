@@ -1,0 +1,21 @@
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\bin\Debug\netcoreapp3.1\DocumentsDal.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\bin\Debug\netcoreapp3.1\DocumentsDal.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\bin\Debug\netcoreapp3.1\DrawnigContracts.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\bin\Debug\netcoreapp3.1\DrawnigContracts.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DocumentsDal.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DocumentsDal.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DocumentsDal.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.pdb
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.AssemblyInfo.cs
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.csproj.CopyComplete
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.dll
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\DocumentsDal\obj\Debug\netcoreapp3.1\DocumentsDal.csprojAssemblyReference.cache

@@ -1,0 +1,28 @@
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\bin\Debug\netcoreapp3.1\UsersService.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\bin\Debug\netcoreapp3.1\UsersService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\bin\Debug\netcoreapp3.1\UsersService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\bin\Debug\netcoreapp3.1\DrawnigContracts.dll
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\bin\Debug\netcoreapp3.1\DrawnigContracts.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\de\netcoreapp3.1\UsersService.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\de\netcoreapp3.1\UsersService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\de\netcoreapp3.1\UsersService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\UsersService.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\UsersService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\UsersService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\ss\netcoreapp3.1\UsersService.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\ss\netcoreapp3.1\UsersService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\ss\netcoreapp3.1\UsersService.pdb
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.AssemblyInfo.cs
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csproj.CopyComplete
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.dll
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ebsd/JA1fUOjq9dWWkHLI5LGpCU6clHDu9IG4g6jJKcBqoe9vqeJ1/Cq3hRuE+g0UWwmsE/JgMttOelSBvTIMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DocumentService\\DocumentService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
+    "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

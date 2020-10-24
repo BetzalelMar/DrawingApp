@@ -1,0 +1,87 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "UsersDal/1.0.0": {
+        "dependencies": {
+          "DALContracts": "1.0.0",
+          "DrawnigContracts": "1.0.0",
+          "ODP.NetCore": "2.0.12"
+        },
+        "runtime": {
+          "UsersDal.dll": {}
+        }
+      },
+      "Contracts/1.0.8": {
+        "runtime": {
+          "lib/netcoreapp3.1/Contracts.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "DALContracts/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/DALContracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ODP.NetCore/2.0.12": {
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {
+            "assemblyVersion": "2.0.12.0",
+            "fileVersion": "2.0.12.0"
+          }
+        }
+      },
+      "DrawnigContracts/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.8",
+          "DALContracts": "1.0.0"
+        },
+        "runtime": {
+          "DrawnigContracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UsersDal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yIHQt6Y4YoyPfvPSMJK2N/3HP22T+8P5NVKeqEMEI1Uey58hxuHLS8kPh2dridBdJMQrE+RODf6+QYNGd7MPug==",
+      "path": "contracts/1.0.8",
+      "hashPath": "contracts.1.0.8.nupkg.sha512"
+    },
+    "DALContracts/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6cV321NIaf24VN5wqNPJR4buYmQI2/3+6+NBabuozeuM+aafkhqNNtBMRw+RIbetMzy/MF2+v/92GCbv1kOfWw==",
+      "path": "dalcontracts/1.0.0",
+      "hashPath": "dalcontracts.1.0.0.nupkg.sha512"
+    },
+    "ODP.NetCore/2.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JO0XH6/SYOFdxurhxXCa+uMThj4jYNVEOEELPjTcadzVGn0/f3evA6p1cwUoI7IRxDhBGtJc2wDi+cAxUvz76Q==",
+      "path": "odp.netcore/2.0.12",
+      "hashPath": "odp.netcore.2.0.12.nupkg.sha512"
+    },
+    "DrawnigContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

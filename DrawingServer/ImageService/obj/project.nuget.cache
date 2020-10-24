@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rMAcKW4JuRAuKV9J0u4YV+2iXxmcdt6hJnh+Fr+tcwwBrvh2FXZG1y9X63mfceJfJSMaCaqF8QRXJV4DysObaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\ImageService\\ImageService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
+    "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

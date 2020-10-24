@@ -1,0 +1,9 @@
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\bin\Debug\netcoreapp3.1\UtilsService.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\bin\Debug\netcoreapp3.1\UtilsService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\bin\Debug\netcoreapp3.1\UtilsService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\obj\Debug\netcoreapp3.1\UtilsService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\obj\Debug\netcoreapp3.1\UtilsService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\obj\Debug\netcoreapp3.1\UtilsService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\obj\Debug\netcoreapp3.1\UtilsService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\obj\Debug\netcoreapp3.1\UtilsService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\UtilsService\obj\Debug\netcoreapp3.1\UtilsService.csprojAssemblyReference.cache

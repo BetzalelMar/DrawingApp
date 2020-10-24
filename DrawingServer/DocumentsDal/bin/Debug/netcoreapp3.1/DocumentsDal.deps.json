@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DocumentsDal/1.0.0": {
+        "dependencies": {
+          "DrawnigContracts": "1.0.0"
+        },
+        "runtime": {
+          "DocumentsDal.dll": {}
+        }
+      },
+      "Contracts/1.0.8": {
+        "runtime": {
+          "lib/netcoreapp3.1/Contracts.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "DALContracts/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/DALContracts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DrawnigContracts/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.8",
+          "DALContracts": "1.0.0"
+        },
+        "runtime": {
+          "DrawnigContracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DocumentsDal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yIHQt6Y4YoyPfvPSMJK2N/3HP22T+8P5NVKeqEMEI1Uey58hxuHLS8kPh2dridBdJMQrE+RODf6+QYNGd7MPug==",
+      "path": "contracts/1.0.8",
+      "hashPath": "contracts.1.0.8.nupkg.sha512"
+    },
+    "DALContracts/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6cV321NIaf24VN5wqNPJR4buYmQI2/3+6+NBabuozeuM+aafkhqNNtBMRw+RIbetMzy/MF2+v/92GCbv1kOfWw==",
+      "path": "dalcontracts/1.0.0",
+      "hashPath": "dalcontracts.1.0.0.nupkg.sha512"
+    },
+    "DrawnigContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

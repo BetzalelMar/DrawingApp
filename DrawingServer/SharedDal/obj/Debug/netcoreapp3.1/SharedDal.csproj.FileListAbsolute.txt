@@ -1,0 +1,15 @@
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\SharedDal.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\SharedDal.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\SharedDal.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.dll
+C:\Users\BM\Desktop\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.pdb
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.AssemblyInfo.cs
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csproj.CopyComplete
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.dll
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.pdb
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csproj.CoreCompileInputs.cache

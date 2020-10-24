@@ -1,0 +1,16 @@
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\GenerateIdService.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\GenerateIdService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\GenerateIdService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.pdb
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.AssemblyInfo.cs
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.csproj.CopyComplete
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.dll
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.pdb

@@ -1,0 +1,16 @@
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\ValidationService.deps.json
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\ValidationService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\ValidationService.pdb
+C:\Users\BM\Desktop\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.dll
+C:\Users\BM\Desktop\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.pdb
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.AssemblyInfo.cs
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csproj.CopyComplete
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.dll
+C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.pdb
