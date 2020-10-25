@@ -117,11 +117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DBConvertor\\DBConvertor.csproj",
+      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DBConvertor\\DBConvertor.csproj",
       "projectName": "DBConvertor",
-      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DBConvertor\\DBConvertor.csproj",
+      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DBConvertor\\DBConvertor.csproj",
       "packagesPath": "C:\\Users\\BM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DBConvertor\\obj\\",
+      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DBConvertor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,8 +138,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
-              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
+            "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
+              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
             }
           }
         }

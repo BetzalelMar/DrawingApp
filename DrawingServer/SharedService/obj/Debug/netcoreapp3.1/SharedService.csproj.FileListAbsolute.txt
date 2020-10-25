@@ -14,3 +14,9 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedService\ob
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.csproj.CopyComplete
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.pdb

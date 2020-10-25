@@ -76,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\SharedService\\SharedService.csproj",
+      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\SharedService\\SharedService.csproj",
       "projectName": "SharedService",
-      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\SharedService\\SharedService.csproj",
+      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\SharedService\\SharedService.csproj",
       "packagesPath": "C:\\Users\\BM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\SharedService\\obj\\",
+      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\SharedService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
-              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
+            "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
+              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
             }
           }
         }

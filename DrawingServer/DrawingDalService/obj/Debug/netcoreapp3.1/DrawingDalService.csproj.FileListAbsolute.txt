@@ -20,3 +20,10 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DrawingDalServic
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.csproj.CopyComplete
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.pdb

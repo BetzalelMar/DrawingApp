@@ -98,11 +98,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\UsersDal\\UsersDal.csproj",
+      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\UsersDal\\UsersDal.csproj",
       "projectName": "UsersDal",
-      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\UsersDal\\UsersDal.csproj",
+      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\UsersDal\\UsersDal.csproj",
       "packagesPath": "C:\\Users\\BM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\UsersDal\\obj\\",
+      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\UsersDal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -119,8 +119,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
-              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
+            "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
+              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
             }
           }
         }

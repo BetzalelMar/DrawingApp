@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iPO+7DPc3R2bMpG8svOJ2v7QPJVx1wlwlbIHR3wp+V7mI4qBs97BpDE9FwDfZ+uaPmf2GiXjnd9RQ1cjM0QjXg==",
+  "dgSpecHash": "8WyUDcCh8cV98VOo8lGMW6sasCIzGhvDR3UgZX5K3bkeRTWOac7yIASPYF3BsNwJdS+6fcFz+pI57a0jvFZv2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DBConvertor\\DBConvertor.csproj",
+  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DBConvertor\\DBConvertor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
     "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512",

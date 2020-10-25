@@ -14,3 +14,9 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationServic
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csproj.CopyComplete
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\ValidationService\obj\Debug\netcoreapp3.1\ValidationService.pdb

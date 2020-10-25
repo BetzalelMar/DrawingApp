@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uoFOiaNMkdCzCFlLWq8mifeL8gspEZ2r6QoE7vSDIYw+65ZIGwdBORTOQ3+Q5cZhaBLgdEmywHI1yH0ADU8WEQ==",
+  "dgSpecHash": "5a+NBlzbXEE0Ej4MZmue+/oiDePkoLmB/c04jYzqGSQZDsXzBhnpuMQaDhB8BFn1wi2yOKlpDNfSVTdLrgRFdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\UsersService\\UsersService.csproj",
+  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\UsersService\\UsersService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
     "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512"

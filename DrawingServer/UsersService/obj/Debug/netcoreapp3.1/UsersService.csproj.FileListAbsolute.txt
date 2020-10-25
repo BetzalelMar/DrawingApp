@@ -26,3 +26,10 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csproj.CopyComplete
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\UsersService\obj\Debug\netcoreapp3.1\UsersService.pdb

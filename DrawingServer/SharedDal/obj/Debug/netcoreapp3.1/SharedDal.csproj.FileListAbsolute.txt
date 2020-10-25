@@ -13,3 +13,10 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\De
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.pdb
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedDal\obj\Debug\netcoreapp3.1\SharedDal.pdb

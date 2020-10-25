@@ -76,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\MarkerService\\MarkerService.csproj",
+      "projectUniqueName": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\MarkerService\\MarkerService.csproj",
       "projectName": "MarkerService",
-      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\MarkerService\\MarkerService.csproj",
+      "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\MarkerService\\MarkerService.csproj",
       "packagesPath": "C:\\Users\\BM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\MarkerService\\obj\\",
+      "outputPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\MarkerService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BM\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,8 +97,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
-              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
+            "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj": {
+              "projectPath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DrawnigContracts\\DrawnigContracts.csproj"
             }
           }
         }

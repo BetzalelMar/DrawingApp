@@ -17,3 +17,9 @@ C:\Users\BM\Desktop\final project\DrawingServer\DrawingApp\bin\Debug\netcoreapp3
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.csproj.CoreCompileInputs.cache
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.csprojAssemblyReference.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.pdb

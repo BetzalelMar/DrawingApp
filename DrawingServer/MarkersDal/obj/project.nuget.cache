@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LdBu7f9StOCyNrYj7BFmCnpXptYFVH/M8EvetZ+H/mav6ajmFrmjDuI+QZo6KdkaV9MC2EpWILVwtWS68bcAeQ==",
+  "dgSpecHash": "8aphD8zTRJYgcsT0/tO+MBx+M23+AsCptR348XxmN9RFBZwDHJvVAdPMl35tlKZCn1VEoaL60R9ubZTfIlU+jg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\DrawingServer\\MarkersDal\\MarkersDal.csproj",
+  "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\MarkersDal\\MarkersDal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
     "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512",
