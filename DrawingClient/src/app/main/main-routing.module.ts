@@ -9,7 +9,7 @@ import { RegisterComponent } from './Components/register/register.component';
 const routes: Routes = [
   {
     path: '', component: MainPageComponent
-    , children: [{ path: 'docs', loadChildren: () => import('../docs/docs.module').then(m => m.DocsModule)}//, canActivate:[GardService] }
+    , children: [{ path: 'docs', loadChildren: () => import('../docs/docs.module').then(m => m.DocsModule), canActivate:[GardService] }
     ]
   },
   { path: 'login', component: LoginComponent },

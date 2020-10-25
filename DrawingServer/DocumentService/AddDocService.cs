@@ -3,11 +3,8 @@ using Contracts.DTO;
 using DrawnigContracts.DTO;
 using DrawnigContracts.DTO.DocsDTO;
 using DrawnigContracts.DTO.DocsDTO.Response;
-using DrawnigContracts.DTO.documentsDTO.DocData;
 using DrawnigContracts.Interface;
 using System;
-using System.IO;
-using System.Reflection;
 
 
 namespace DocService
@@ -34,7 +31,8 @@ namespace DocService
             var docId = _generatIdService.GenerateId();
             try
             {
-                string dir = @"\final project\DrawingClient\v1\src\assets" + "/Pictures";
+            
+                string dir = @"\final project\gitClone\DrawingApp\DrawingClient\src\assets" + "/Pictures";
                 var docUrl = _imageService.storeImage(dir,docId+request.docName, request.docUrl);
 
                 if (_dal.GetDoc(docId).Tables[0].Rows.Count!=0) retval = new AddDocResponseDocExist("Document Exist");

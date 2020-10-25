@@ -25,3 +25,4 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DocumentServ
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DocumentService\obj\Debug\netcoreapp3.1\DocumentService.csproj.CopyComplete
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DocumentService\obj\Debug\netcoreapp3.1\DocumentService.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DocumentService\obj\Debug\netcoreapp3.1\DocumentService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DocumentService\obj\Debug\netcoreapp3.1\DocumentService.csprojAssemblyReference.cache
