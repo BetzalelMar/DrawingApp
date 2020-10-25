@@ -9,10 +9,11 @@ import { CommonModule } from '@angular/common';
 
 import { DocsRoutingModule } from './docs-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ShareComponent } from './Components/share/share.component';
 
 
 @NgModule({
-  declarations: [DocComponent, DocGalleryComponent, EditDocComponent, AddDocComponent, DrawingComponent],
+  declarations: [DocComponent, DocGalleryComponent, EditDocComponent, AddDocComponent, DrawingComponent, ShareComponent],
   imports: [
     CommonModule,
     DocsRoutingModule,
@@ -20,7 +21,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MyMatiralModule],
     entryComponents: [
       AddDocComponent,
-      EditDocComponent
+      EditDocComponent,
+      ShareComponent
     ],
 })
 export class DocsModule { }

@@ -1,0 +1,16 @@
+
+<mat-dialog-content>
+<mat-form-field appearance="outline">
+    <mat-label>Enter share email</mat-label>
+    <input matInput placeholder="pat@example.com" [formControl]="userId">
+    <mat-error *ngIf="userId.hasError('required')">Please choose an user</mat-error>
+</mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button (click)='onClose()' class=" bikur-btn " mat-raised-button color="primary">Close</button>
+    <button (click)='share()' class="bikur-btn" mat-raised-button color="primary"
+    [disabled]="!userId.valid">Share</button>
+
+</mat-dialog-actions>
+
+

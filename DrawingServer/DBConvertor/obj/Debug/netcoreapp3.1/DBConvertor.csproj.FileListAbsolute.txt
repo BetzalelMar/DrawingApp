@@ -22,3 +22,6 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.csproj.CopyComplete
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DBConvertor.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DBConvertor.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DBConvertor.pdb

@@ -14,10 +14,12 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\MarkerService\ob
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.csproj.CopyComplete
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.pdb
-C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.csprojAssemblyReference.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.AssemblyInfoInputs.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.AssemblyInfo.cs
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.csproj.CoreCompileInputs.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.csproj.CopyComplete
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkerService\obj\Debug\netcoreapp3.1\MarkerService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MarkerService.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MarkerService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MarkerService.pdb

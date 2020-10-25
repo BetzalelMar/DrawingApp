@@ -11,7 +11,6 @@ import { MatDialogRef } from '@angular/material/dialog';
 })
 export class AddDocComponent implements OnInit {
 
-  // constructor(private dialogRef: MatDialogRef<AddDocComponent>, private fb: FormBuilder, private cd: ChangeDetectorRef, private addDocService: AddDocumentService) { }
   constructor(private dialogRef: MatDialogRef<AddDocComponent>, private addDocService: AddDocumentService) { }
 
   AddDocForm: FormGroup
@@ -23,8 +22,8 @@ export class AddDocComponent implements OnInit {
       file: new FormControl('',[Validators.required])
     }
     )
-    this.addDocService.onAddDocOk.subscribe(() =>
-     this.onClose()) // this.dialogRef.close({add:true,data:data}))
+    this.addDocService.onAddDocOk.subscribe(data =>
+     this.dialogRef.close({add:true,data:data}))
   }
 
   onFileChange(evt) {

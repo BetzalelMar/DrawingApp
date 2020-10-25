@@ -27,3 +27,6 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalSe
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.csproj.CopyComplete
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingDalService\obj\Debug\netcoreapp3.1\DrawingDalService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DrawingDalService.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DrawingDalService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DrawingDalService.pdb

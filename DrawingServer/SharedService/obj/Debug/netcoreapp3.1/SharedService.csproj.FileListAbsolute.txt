@@ -20,3 +20,6 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedServic
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.csproj.CopyComplete
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\SharedService\obj\Debug\netcoreapp3.1\SharedService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\SharedService.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\SharedService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\SharedService.pdb

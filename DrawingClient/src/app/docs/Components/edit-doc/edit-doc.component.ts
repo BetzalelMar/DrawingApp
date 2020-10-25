@@ -21,8 +21,8 @@ import { DocComponent } from '../doc/doc.component';
 })
 export class EditDocComponent implements OnInit, AfterViewInit {
   @ViewChild('Doc',{ static: true }) docComponent: DocComponent;
-
   doc:DocDATA
+  
   mode:string='Rectangle'
   @ViewChild('fcolor') fcolor:ElementRef
   @ViewChild('bcolor') bcolor:ElementRef

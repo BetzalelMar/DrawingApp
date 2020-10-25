@@ -1,4 +1,5 @@
-﻿using Contracts;
+﻿
+using Contracts;
 using Contracts.DTO;
 using DrawnigContracts.DTO;
 using DrawnigContracts.DTO.DocsDTO;
@@ -32,7 +33,7 @@ namespace DocService
             try
             {
             
-                string dir = @"\final project\gitClone\DrawingApp\DrawingClient\src\assets" + "/Pictures";
+                string dir = "C:/Users/BM/Desktop/final project/gitClone/DrawingApp/DrawingClient/src/assets/Pictures";
                 var docUrl = _imageService.storeImage(dir,docId+request.docName, request.docUrl);
 
                 if (_dal.GetDoc(docId).Tables[0].Rows.Count!=0) retval = new AddDocResponseDocExist("Document Exist");

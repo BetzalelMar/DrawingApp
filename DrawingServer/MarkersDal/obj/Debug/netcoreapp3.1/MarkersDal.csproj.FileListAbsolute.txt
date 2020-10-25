@@ -19,10 +19,13 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\MarkersDal\obj\D
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.dll
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.pdb
 C:\Users\BM\Desktop\final project\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.csprojAssemblyReference.cache
-C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.csprojAssemblyReference.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.AssemblyInfoInputs.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.AssemblyInfo.cs
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.csproj.CoreCompileInputs.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.csproj.CopyComplete
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MarkersDal.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MarkersDal.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MarkersDal.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MarkersDal\obj\Debug\netcoreapp3.1\MarkersDal.csprojAssemblyReference.cache

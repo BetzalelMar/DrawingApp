@@ -1,3 +1,4 @@
+import { SharedDocRemoteService } from './../Services/shared-doc-remote.service';
 import { map, take } from 'rxjs/operators';
 import { ResponseB } from './../../DTO/Response/response';
 import { DocRemoteService } from './../../services/commService/doc-remote.service';
@@ -10,10 +11,11 @@ import { UserDetailsService } from 'src/app/main/Services/user-details.service';
 )
 export class GalleryService {
 
-  constructor(private userDetailsService: UserDetailsService, private docRemoteService: DocRemoteService) { }
+  constructor(private userDetailsService: UserDetailsService,private sharedDocRemoteService:SharedDocRemoteService, private docRemoteService: DocRemoteService) { }
 
-  ResponseSubject: { [responseType: string]: Subject<Array<DocDATA>> } = {
-    GetAllDocResponseOk: new Subject<Array<DocDATA>>()
+  ResponseSubject: { [responseType: string]: Subject<any> } = {
+    GetAllDocResponseOk: new Subject<any>(),
+    GetAllSharedResponseOk: new Subject<any>(),
   }
 
 
@@ -22,7 +24,12 @@ export class GalleryService {
     this.docRemoteService.GetAllDocs({ userId: userId })
       .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response.responseData]))
       .subscribe(([subject,data]:[Subject<any>,any[]])=>subject.next(data))
+   
+      this.sharedDocRemoteService.GetAllSharedDoc({ userId: userId })
+      .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response.responseData]))
+      .subscribe(([subject,data]:[Subject<any>,any[]])=>subject.next(data))
   }
 
   get onGetAllDocResponseOk(){return this.ResponseSubject['GetAllDocResponseOk']}
+  get onGetAllSharedocResponseOk(){return this.ResponseSubject['GetAllSharedResponseOk']}
 }

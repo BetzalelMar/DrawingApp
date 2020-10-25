@@ -2,8 +2,10 @@
     <button type="button" mat-button color="primary" (click)="openAddDialog()">ADD </button>
 
     <div class="row">
-        <div *ngFor="let doc of myDocuments" class="col-lg-3 col-md-4 col-6 doc" (click)="openEditDialog(doc)">
-                        <app-doc [doc]="doc"></app-doc> -->
+        <div *ngFor="let doc of myDocuments" class="col-lg-3 col-md-4 col-6 doc">
+            <button  mat-icon-button  color="primary" (click)="openEditDialog(doc)"><mat-icon>edit</mat-icon></button>
+            <button class="p-abs" mat-icon-button color="primary" type="button" (click)="openShareDialog(doc)"><mat-icon>share</mat-icon></button>
+             <app-doc [doc]="doc" ></app-doc>
         </div> 
     </div>
 </div>

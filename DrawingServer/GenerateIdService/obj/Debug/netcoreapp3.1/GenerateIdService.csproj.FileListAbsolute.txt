@@ -20,3 +20,6 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\GenerateIdSe
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.csproj.CopyComplete
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\GenerateIdService\obj\Debug\netcoreapp3.1\GenerateIdService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\GenerateIdService.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\GenerateIdService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\GenerateIdService.pdb

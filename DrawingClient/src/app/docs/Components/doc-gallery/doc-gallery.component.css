@@ -14,3 +14,9 @@
  .doc{
     height: 150px;
 }
+ .p-rel{
+     position: relative;
+ }
+ .p-abs{
+     position: absolute;
+ }

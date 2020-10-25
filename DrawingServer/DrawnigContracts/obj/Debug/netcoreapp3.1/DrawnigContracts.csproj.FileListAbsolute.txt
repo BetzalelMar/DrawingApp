@@ -22,3 +22,6 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContr
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.csproj.CoreCompileInputs.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawnigContracts\obj\Debug\netcoreapp3.1\DrawnigContracts.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DrawnigContracts.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DrawnigContracts.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\DrawnigContracts.pdb
