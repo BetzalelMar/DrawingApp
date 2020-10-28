@@ -2,7 +2,7 @@ import { UserDetailsService } from './../../main/Services/user-details.service';
 import { DocDATA } from '../../DTO/DATA/doc-data';
 import { Injectable } from '@angular/core';
 import { Observable, Subject} from 'rxjs';
-import { DocRemoteService } from '../../services/commService/doc-remote.service';
+import { DocRemoteService } from './doc-remote.service';
 import { take, map } from 'rxjs/operators';
 import { ResponseB } from 'src/app/DTO/Response/response';
 

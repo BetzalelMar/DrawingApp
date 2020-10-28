@@ -17,14 +17,18 @@ namespace SharedService
         ISharedDal _dal;
         IDocConvertor _convertor;
         IvalidatorService _validator;
-        public AddSharedService(ISharedDal dal, IDocConvertor convertor,IvalidatorService validator)
+        IMapDocToUsersService _docToUsersService;
+        IWsAppService _wsAppService;
+        public AddSharedService(ISharedDal dal,IWsAppService wsService, IDocConvertor convertor,IvalidatorService validator, IMapDocToUsersService docToUsersService,IWsAppService wsAppService)
         {
             _dal = dal;
             _convertor = convertor;
+            _docToUsersService = docToUsersService;
             _validator = validator;
+            _wsAppService = wsAppService;
         }
 
-        public Response AddShaerd(AddSharedRequest request)
+        public  Response  AddShaerd(AddSharedRequest request)
         {
             Response retval;
             if (!(this._validator.UserExist(request.sharedData.userId) && this._validator.DocExist(request.sharedData.docId)))
@@ -40,6 +44,8 @@ namespace SharedService
                     var dbResponse = this._dal.AddShared(request.sharedData).Tables[0];
                     var data = this._convertor.convertTableToList(dbResponse);
                     retval = new AddSharedResponseOk(data);
+                    this._docToUsersService.AddUserToDoc(data[0].docId, request.sharedData.userId);
+                    _wsAppService.sendDoc(request.sharedData.userId, data[0]);
                 }
                 catch (Exception)
                 {

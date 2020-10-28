@@ -1,17 +1,26 @@
+import { take } from 'rxjs/operators';
+import { ResponseB } from 'src/app/DTO/Response/response';
+import { UserDetailsService } from 'src/app/main/Services/user-details.service';
 import { Router } from '@angular/router';
 import { LogInService } from './../../Services/log-in.service';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { map } from 'rxjs/internal/operators/map';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
+  providers:[LogInService]
 })
 export class LoginComponent implements OnInit {
 
-  constructor(@Inject(MAT_DIALOG_DATA) public data: any,private routr:Router, private logInService:LogInService,public dialogRef: MatDialogRef<LoginComponent>) {
+  constructor(@Inject(MAT_DIALOG_DATA) public data: any,
+                private routr:Router,
+                private uerDetailsService:UserDetailsService, 
+                private logInService:LogInService,
+                public dialogRef: MatDialogRef<LoginComponent>) {
    }
   LogInForm:FormGroup;
   hide = true;
@@ -22,11 +31,13 @@ export class LoginComponent implements OnInit {
       password:new FormControl(this.data['userPassword'],[Validators.required])
     }
     )
-    this.logInService.onLogInOk.subscribe(res=>{
-    this.routr.navigate(['docs']);
-    this.dialogRef.close();
-    }
-    )
+    this.logInService.onLogInOk
+    .pipe(map((res:ResponseB)=>res.responseData[0]),take(1))
+    .subscribe(res=>{
+            this.uerDetailsService.updateDetails(res.userId,res.userName)
+            this.onClose();
+            this.routr.navigate(['docs']);})
+    this.logInService.onLogInResponseInValidUserNameOrPassword.subscribe(res=>console.log(res))
   }
 
   onSubmit(){
@@ -41,4 +52,8 @@ export class LoginComponent implements OnInit {
   get email(){return this.LogInForm.controls['email']}
   get password(){return this.LogInForm.controls['password']}
 
+
+  onClose(){
+    this.dialogRef.close()
+  }
 }

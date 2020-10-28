@@ -1,12 +1,10 @@
+import { UserDetailsService } from 'src/app/main/Services/user-details.service';
 import { tap } from 'rxjs/operators';
-import { LogOutComponent } from './../log-out/log-out.component';
 import { MatDialog } from '@angular/material/dialog';
 import { Component, OnInit } from '@angular/core';
 import { LoginComponent } from '../login/login.component';
 import { RegisterComponent } from '../register/register.component';
-import { map } from 'rxjs/internal/operators/map';
 import { AddDocComponent } from 'src/app/docs/Components/add-doc/add-doc.component';
-
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
@@ -14,12 +12,14 @@ import { AddDocComponent } from 'src/app/docs/Components/add-doc/add-doc.compone
 })
 export class MainPageComponent implements OnInit {
 
-  constructor(private dialog:MatDialog) { }
-
+  constructor(private dialog:MatDialog,private userDetailsService:UserDetailsService) { }
+  userName:string
   ngOnInit(): void {
+    this.userDetailsService.userName.subscribe(res=>this.userName=res)
   }
   onLogInDialog(parm={userId:'',userPassword:''}){
     this.dialog.open(LoginComponent,{
+      disableClose :true,
       data:parm
     })
   }
@@ -28,12 +28,8 @@ export class MainPageComponent implements OnInit {
       disableClose :true
     })
     .afterClosed()
-    .pipe(tap(data=>console.log(data)))
     .subscribe(data=>{if(data)this.onLogInDialog(data)})
-  }
-
-  onAddDialog(){
-    this.dialog.open(AddDocComponent)
-  }
+  }    
+  
 
 }

@@ -2,6 +2,7 @@ import { MatDialogRef } from '@angular/material/dialog';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { RegisterService } from './../../Services/register.service';
 import { Component, OnInit } from '@angular/core';
+import { ResponseB } from 'src/app/DTO/Response/response';
 
 @Component({
   selector: 'app-register',
@@ -22,9 +23,9 @@ export class RegisterComponent implements OnInit {
       confirmPassword: new FormControl('', [Validators.required])
     })
 
-    this.registerService.onRegisterOk.subscribe(()=>{
-      this.dialogRef.close({userId:this.userId.value,userPassword:this.userPassword.value})
-      })
+    this.registerService.onRegisterOk.subscribe(()=>this.dialogRef.close({userId:this.userId.value,userPassword:this.userPassword.value}))
+    this.registerService.onPasswordNotMatch.subscribe((res:ResponseB)=>console.log(res.responseMessage))
+    this.registerService.onUserExist.subscribe((res:ResponseB)=>console.log(res.responseMessage))
   }
   getErrorMessage(controlName:string){
     var control=this.RegisterForm.controls[controlName]

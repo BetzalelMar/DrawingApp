@@ -17,8 +17,8 @@ export class LogOutService {
 
     LogOut(userId:string){
       this.userRemoteService.LogOut({userId:userId})
-      .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response.responseData]))
-      .subscribe(([subject,data]:[Subject<any>,any[]])=>subject.next(data[0]))
+      .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response]))
+      .subscribe(([subject,res]:[Subject<any>,any])=>subject.next(res))
     }
 
     get onLogOutOk(){return this.ResponseSubject['LogOutResponseOk']}

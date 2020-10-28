@@ -1,3 +1,4 @@
+import { FreeDrawData } from './../../../DTO/DATA/free-draw-data';
 import { map } from 'rxjs/operators';
 import { Observable, Subject } from 'rxjs';
 import { DrawingService}from '../../Services/drawing.service'
@@ -28,70 +29,65 @@ export class DrawingComponent implements OnInit,AfterViewInit {
     this.canvasShapeRef.nativeElement.width  = this.canvasShapeRef.nativeElement.offsetWidth;
     this.canvasShapeRef.nativeElement.height = this.canvasShapeRef.nativeElement.offsetHeight;
     this.localScreen=new Point(this.freeDrawCanvasRef.nativeElement.width,this.freeDrawCanvasRef.nativeElement.height);
-
   }
   
   ngOnInit(): void {
     this.drawingService.subjectRegister(this.docId)
-    this.drawingService.onDrawFree(this.docId).subscribe(points => this.freeDraw(points[0], points[1],points[2]))
+    this.drawingService.onDrawFree(this.docId).subscribe(freeDrawData => this.freeDraw(freeDrawData))
     this.drawingService.onDrawEllipse(this.docId).subscribe(marker =>{this.drawEllipse(marker);this.clearCanvas(this.freeDrawCanvasRef.nativeElement);})
     this.drawingService.onDrawRectangle(this.docId).subscribe(marker => {this.drawRectangle(marker);this.clearCanvas(this.freeDrawCanvasRef.nativeElement);})
     this.drawingService.onclearCanvas(this.docId).subscribe(res=> this.clearCanvas(this.canvasShapeRef.nativeElement))
   }
 
   drawEllipse(marker: Ellipse) {
-    var ctx = this.getCtx(this.canvasShapeRef.nativeElement);
+    var center=this.scal(marker.markerLocation.pos,marker.originScreen)
+    var radius=this.scal(marker.markerLocation.radius,marker.originScreen)
+    var ctx = this.canvasShapeRef.nativeElement.getContext('2d');
+    ctx.beginPath()
     ctx.globalAlpha = 0.2;
-    ctx.strokeStyle = marker.markerColor.foreColor
-    var center=new Point(marker.markerLocation.pos.x,marker.markerLocation.pos.y).calc(marker.originScreen ,this.localScreen)
-    var radius=new Point(marker.markerLocation.radius.x,marker.markerLocation.radius.y).calc(marker.originScreen ,this.localScreen)
-
+    ctx.strokeStyle = marker.markerColor.backColor
     ctx.ellipse(center.x,center.y,radius.x,radius.y, 0, 0, 2 * Math.PI);
     ctx.fill()
     ctx.globalAlpha = 1.0;
     ctx.strokeStyle = marker.markerColor.backColor
-    ctx.ellipse(center.x,center.y,radius.x,radius.y, 0, 0, 2 * Math.PI);
     ctx.stroke();
   }
 
   drawRectangle(marker: Rectangle) {
-    var ctx = this.getCtx(this.canvasShapeRef.nativeElement);
+    var startPos=this.scal(marker.markerLocation.pos,marker.originScreen)
+    var radius=this.scal(marker.markerLocation.radius,marker.originScreen)
+    var ctx = this.canvasShapeRef.nativeElement.getContext('2d');
+    ctx.beginPath()
     ctx.globalAlpha = 0.2;
-    ctx.fillStyle=marker.markerColor.foreColor
-    var startPos=new Point(marker.markerLocation.pos.x,marker.markerLocation.pos.y).calc(marker.originScreen ,this.localScreen)
-    var radius=new Point(marker.markerLocation.radius.x,marker.markerLocation.radius.y).calc(marker.originScreen ,this.localScreen)
+    ctx.fillStyle=marker.markerColor.backColor
     ctx.fillRect(startPos.x, startPos.y,radius.x,radius.y);
     ctx.globalAlpha = 1.0;
-    ctx.strokeStyle = marker.markerColor.backColor
+    ctx.strokeStyle = marker.markerColor.foreColor
     ctx.rect(startPos.x, startPos.y,radius.x,radius.y);
     ctx.stroke();
   }
   
-  freeDraw(from: Point, to: Point,originScreen:Point) {
-    from=new Point(from.x,from.y).calc(originScreen ,this.localScreen)
-    to=new Point(to.x,to.y).calc(originScreen ,this.localScreen)
-    to=new Point(to.x,to.y).calc(originScreen ,this.localScreen)
-    var ctx = this.getCtx(this.freeDrawCanvasRef.nativeElement);
-    console.log('from:'+from.x +"to"+to.x)
+  freeDraw(freeDrawData:FreeDrawData) {
+    var from=this.scal(freeDrawData.from,freeDrawData.originScreen)
+    var to=this.scal(freeDrawData.to,freeDrawData.originScreen)
+
+    var ctx = this.freeDrawCanvasRef.nativeElement.getContext('2d');
+    ctx.lineCap = 'round';
+    ctx.strokeStyle = freeDrawData.color
+    ctx.beginPath()
     ctx.moveTo(from.x, from.y);
     ctx.lineTo(to.x, to.y);
     ctx.stroke()
   }
 
   clearCanvas(canvas:any){
-    var ctx=this.getCtx(canvas)
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath()
     ctx.clearRect(0,0,canvas.width,canvas.height)
     ctx.stroke()
   }
 
-  getCtx(canvas: HTMLCanvasElement): CanvasRenderingContext2D {
-    var ctx = canvas.getContext('2d');
-    ctx.lineCap = 'round';
-    ctx.strokeStyle = '#000'
-    ctx.beginPath()
-    return ctx;
+  scal(point:Point,originScreen:Point){
+    return new Point(point.x,point.y).calc(originScreen, this.localScreen)
   }
-
-  scal(p:Point){return new Point(p.x*(this.canvasShapeRef.nativeElement.width/487),p.y*(this.canvasShapeRef.nativeElement.height/246))}
-
 }

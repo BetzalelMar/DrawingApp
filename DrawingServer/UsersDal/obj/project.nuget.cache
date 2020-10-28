@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7rfLB5O+9qVyR/uFCGlAp5JM14AtpIuKvOsKXVPl/NUYUp9HPi7hlScebQqV0mj0zgg3h/hpTb90C0PrHUyBw==",
+  "dgSpecHash": "3x02++MRpT+AFaTk/UKgQuwhPHKp6vp94IchLdCqDMZj9e0PrSO5GKL9Af8Th94adzX/Na2zK5HUbNHZiebkWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\UsersDal\\UsersDal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
     "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512",
-    "C:\\Users\\BM\\.nuget\\packages\\odp.netcore\\2.0.12\\odp.netcore.2.0.12.nupkg.sha512"
+    "C:\\Users\\BM\\.nuget\\packages\\odp.netcore\\2.0.12\\odp.netcore.2.0.12.nupkg.sha512",
+    "C:\\Users\\BM\\.nuget\\packages\\wscontracts\\1.0.2\\wscontracts.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }

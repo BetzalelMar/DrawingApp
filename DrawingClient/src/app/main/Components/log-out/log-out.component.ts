@@ -12,11 +12,13 @@ import { UserDetailsService } from '../../Services/user-details.service';
 })
 export class LogOutComponent implements OnInit {
 
-  constructor(private router:Router, private logOutService:LogOutService,private userDetailsService:UserDetailsService) { }
+  constructor(private router:Router,
+              private logOutService:LogOutService,
+              private userDetailsService:UserDetailsService) { }
 
   ngOnInit(): void {
     this.logOutService.onLogOutOk.subscribe(res=>{
-      this.userDetailsService.isLoggedIn=false;
+      this.userDetailsService.updateDetails(undefined,undefined)
       this.router.navigate([''])
     })
   }

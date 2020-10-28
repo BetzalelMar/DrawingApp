@@ -14,10 +14,12 @@ namespace DocumentService
     {
         IDocDal _dal;     
         IDocConvertor _convertor;
-        public GetAllDocService(IDocDal dal,IDocConvertor convertor)
+        IMapDocToUsersService _docToUsersService;
+        public GetAllDocService(IDocDal dal,IDocConvertor convertor,IMapDocToUsersService docToUsersService)
         {
             _dal = dal;
             _convertor = convertor;
+            _docToUsersService = docToUsersService;
         }
         public Response GetAllDocs(GetAllDocsRequest request)
         {
@@ -27,6 +29,7 @@ namespace DocumentService
                 var dbResponse = _dal.GetAllDocs(request.UserId).Tables[0];
                 var data= _convertor.convertTableToList(dbResponse);
                 retval = new GetAllDocResponseOk(data);
+                data.ForEach(doc => _docToUsersService.AddUserToDoc(doc.docId, request.UserId));
             }
             catch (Exception)
             {

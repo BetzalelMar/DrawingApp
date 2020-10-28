@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8WyUDcCh8cV98VOo8lGMW6sasCIzGhvDR3UgZX5K3bkeRTWOac7yIASPYF3BsNwJdS+6fcFz+pI57a0jvFZv2g==",
+  "dgSpecHash": "IvGCuJskVz7H8PCATp0j5aJKDFYxmGme+f5YxYd7C/NLQMJtl1+1oUDa4/zV3qcQqmeW6LAbrtIY4PMuO6/Txg==",
   "success": true,
   "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\DBConvertor\\DBConvertor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
     "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512",
-    "C:\\Users\\BM\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\BM\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\BM\\.nuget\\packages\\wscontracts\\1.0.2\\wscontracts.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }

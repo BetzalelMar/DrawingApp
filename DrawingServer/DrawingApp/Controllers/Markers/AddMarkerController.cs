@@ -9,6 +9,7 @@ using DrawnigContracts.Interface;
 using DrawnigContracts.Interface.MarkerInterface;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WsContracts;
 
 namespace DrawingApp.Controllers
 {

@@ -7,9 +7,7 @@ import { Marker } from 'src/app/DTO/DATA/Marker';
 import { map, tap } from 'rxjs/operators';
 import { MarkerData } from 'src/app/DTO/DATA/marker-data';
 import { UserDetailsService } from 'src/app/main/Services/user-details.service';
-// @Injectable({
-//   providedIn: 'root'
-// })
+
 @Injectable()
 export class MarkerService {
 
@@ -30,8 +28,8 @@ export class MarkerService {
   getAllMarkersByDocId(docId: string) {
     var param={docId:docId};
     this.markerRemoteService.getAllMarkersByDocId(param)
-    .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response.responseData]))
-    .subscribe(([subject,data]:[Subject<any>,MarkerData[]])=>subject.next(data))
+    .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response]))
+    .subscribe(([subject,res]:[Subject<any>,any])=>subject.next(res))
   }
 
   addMarker(docId: string, Marker: Marker){
@@ -50,15 +48,15 @@ export class MarkerService {
       }
     }
     this.markerRemoteService.addMarker(param)
-    .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response.responseData[0]]))
-    .subscribe(([subject,data]:[Subject<any>,MarkerData])=>subject.next(data))
+    .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType],response]))
+    .subscribe(([subject,res]:[Subject<any>,any])=>subject.next(res))
 
   }
 
   RemoveAllMarkersByDoc(docId:string){
     this.markerRemoteService.RemoveAllMarkersByDoc({docId:docId})
-    .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response.responseData[0]]))
-    .subscribe(([subject,data]:[Subject<any>,MarkerData])=>subject.next(data))
+    .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType],response]))
+    .subscribe(([subject,res]:[Subject<any>,any])=>subject.next(res))
 
   }
 
@@ -68,6 +66,7 @@ export class MarkerService {
 
   get onAddMarkerOk(){return this.ResponseSubject['AddMarkerResponseOk']}
   get onGetAllMarkersOk(){return this.ResponseSubject['GetAllMarkersByDocResponseOk']}
+  get onGetAllMarkersBad(){return this.ResponseSubject['GetAllMarkersByDocBadResponse']}
   get onRemoveAllMarkersByDocOk(){return this.ResponseSubject['RemoveAllMarkersByDocResponseOk']}
 
 }

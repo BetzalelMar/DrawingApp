@@ -17,12 +17,14 @@ namespace DocService
         IGenerateIdService _generatIdService;
         IImageService _imageService;
         IDocConvertor _convertor;
-        public AddDocService(IDocDal dal,IGenerateIdService generatIdService,IImageService imageService,IDocConvertor convertor)
+        IMapDocToUsersService _docToUsersService;
+        public AddDocService(IDocDal dal,IGenerateIdService generatIdService,IImageService imageService,IDocConvertor convertor,IMapDocToUsersService docToUsersService)
         {
             _dal = dal;
             _generatIdService = generatIdService;
             _imageService = imageService;
             _convertor = convertor;
+            _docToUsersService = docToUsersService;
         }
 
         public Response AddDoc(AddDocRequest request)
@@ -36,12 +38,16 @@ namespace DocService
                 string dir = "C:/Users/BM/Desktop/final project/gitClone/DrawingApp/DrawingClient/src/assets/Pictures";
                 var docUrl = _imageService.storeImage(dir,docId+request.docName, request.docUrl);
 
-                if (_dal.GetDoc(docId).Tables[0].Rows.Count!=0) retval = new AddDocResponseDocExist("Document Exist");
-                request.docUrl = docUrl;
-                var dbResponse = _dal.CreateDoc(docId,request).Tables[0];
-                var data = _convertor.convertTableToList(dbResponse);
+                if (_dal.GetDoc(docId).Tables[0].Rows.Count != 0) retval = new AddDocResponseDocExist("Document Exist");
+                else
+                {
+                    request.docUrl = docUrl;
+                    var dbResponse = _dal.CreateDoc(docId, request).Tables[0];
+                    var data = _convertor.convertTableToList(dbResponse);
 
-                retval = new AddDocResponseOk(data);
+                    retval = new AddDocResponseOk(data);
+                    _docToUsersService.AddUserToDoc(data[0].docId, request.ownerId);
+                }
             }
             catch (Exception)
             {

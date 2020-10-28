@@ -20,8 +20,8 @@ export class RegisterService {
 
   Register(value: any) {
     this.userRemoteService.Register({ userId: value.userId, userName: value.userName, userPassword: value.userPassword, userConfirmPassword: value.confirmPassword })
-      .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response.responseData]))
-      .subscribe(([subject, data]: [Subject<any>, any[]]) => subject.next(data[0]))
+      .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType], response]))
+      .subscribe(([subject, res]: [Subject<any>, any]) => subject.next(res))
   }
 
 
@@ -61,7 +61,7 @@ export class RegisterService {
   }
 
   get onRegisterOk() { return this.ResponseSubject['RegisterResponseOk'] }
-  get onUserExistr() { return this.ResponseSubject['RegisterResponseUserExist'] }
+  get onUserExist() { return this.ResponseSubject['RegisterResponseUserExist'] }
   get onPasswordNotMatch() { return this.ResponseSubject['RegisterResponsePasswordNotMatch'] }
 
 }

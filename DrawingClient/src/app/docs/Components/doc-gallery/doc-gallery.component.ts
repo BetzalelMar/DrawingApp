@@ -1,3 +1,4 @@
+import { WsService } from './../../Services/ws.service';
 import { DocDATA } from '../../../DTO/DATA/doc-data';
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
@@ -11,17 +12,14 @@ import { ShareComponent } from '../share/share.component';
   selector: 'app-doc-gallery',
   templateUrl: './doc-gallery.component.html',
   styleUrls: ['./doc-gallery.component.css'],
-  providers: [GalleryService]
+  providers: [GalleryService,WsService]
 })
 export class DocGalleryComponent implements OnInit, AfterViewInit {
 
-  constructor(public dialog: MatDialog, private galleryService: GalleryService) { }
+  constructor(public dialog: MatDialog, private galleryService: GalleryService ,private wsService:WsService) { }
 
   myDocuments: Array<DocDATA>
-  sherdDocuments: Array<DocDATA>
-  share = false
   ngOnInit(): void {
-    console.log('in ngOnInit of Gallery !');
     this.galleryService.onGetAllDocResponseOk.subscribe(data => this.myDocuments = data)
   }
 
@@ -32,14 +30,17 @@ export class DocGalleryComponent implements OnInit, AfterViewInit {
 
 
   openAddDialog() {
-    var dialogRef1 = this.dialog.open(AddDocComponent)
+    var dialogRef1 = this.dialog.open(AddDocComponent,{
+      minHeight:'700px',
+      minWidth:'1000px',
+      disableClose:true
+    })
       .afterClosed()
       .subscribe((res: any) => {
         if (res.add)
           this.myDocuments.push(res.data)
       })
   }
-
   openEditDialog(doc: DocDATA) {
     var dialogRef2 = this.dialog.open(EditDocComponent, {
       height: '700px',
@@ -47,12 +48,13 @@ export class DocGalleryComponent implements OnInit, AfterViewInit {
       data: doc
     })
   }
-  openShareDialog(doc: DocDATA) {
-    var dialogRef3 = this.dialog.open(ShareComponent, {
-      data: doc
-    })
+
+
+  openWs(){
+   this.wsService.Start();
   }
-
-
+  closeWs(){
+    this.wsService.Stop()
+  }
 
 }

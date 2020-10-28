@@ -23,10 +23,10 @@ export class EditDocComponent implements OnInit, AfterViewInit {
   @ViewChild('Doc',{ static: true }) docComponent: DocComponent;
   doc:DocDATA
   
-  mode:string='Rectangle'
+ // mode:string='Rectangle'
   @ViewChild('fcolor') fcolor:ElementRef
   @ViewChild('bcolor') bcolor:ElementRef
-  color:MarkerColor=new MarkerColor();
+  //color:MarkerColor=new MarkerColor();
   originScreen:Point;
   constructor(@Inject(MAT_DIALOG_DATA) public data: any,private editDocService:EditDocService) {
     this.doc = data;
@@ -34,53 +34,25 @@ export class EditDocComponent implements OnInit, AfterViewInit {
 
   
   ngAfterViewInit(): void {
-    fromEvent(this.fcolor.nativeElement,'change').subscribe((v:any)=>this.color['foreColor']=v.target.value)
-    fromEvent(this.bcolor.nativeElement,'change').subscribe((v:any)=>this.color['backColor']=v.target.value)
+    
+    fromEvent(this.fcolor.nativeElement,'change').subscribe((v:any)=>this.editDocService.color['foreColor']=v.target.value)
+    fromEvent(this.bcolor.nativeElement,'change').subscribe((v:any)=>this.editDocService.color['backColor']=v.target.value)
     var canvasEl=this.docComponent.drawingComponent.freeDrawCanvasRef.nativeElement
-    this.originScreen=new Point(canvasEl.width,canvasEl.height)
-    var mousedown$ = fromEvent(canvasEl, 'mousedown');
-    var mousemove$ = fromEvent(canvasEl, 'mousemove');
-    var mouseup$=fromEvent(canvasEl, 'mouseup');
-
-    mousedown$.pipe(
-      switchMap(event =>
-        mousemove$.pipe(
-          takeUntil(mouseup$),
-          takeUntil(fromEvent(canvasEl, 'mouseleave')),
-          pairwise()
-        ))
-    ).pipe(map((res: [MouseEvent, MouseEvent]) => {
-      const rect = canvasEl.getBoundingClientRect();
-      return res.map(point => {
-        return {
-          x: point.clientX - rect.left,
-          y: point.clientY - rect.top
-        }
-      })
-    }))
-
-      .subscribe((res:Array<Point>) => {
-        this.editDocService.freeDraw(this.doc.docId,res,this.originScreen)
-      })
-
-      this.editDocService.polySubject.pipe(
-        buffer(mouseup$)
-      )
-      .subscribe(res=>this.editDocService.drawShape(this.doc.docId,this.mode,this.color,res,this.originScreen))
-  
-
+    this.editDocService.originScreen=new Point(canvasEl.width,canvasEl.height)
+    this.editDocService.mouseEvents(canvasEl);
   }
 
   ngOnInit(): void {
+   this.editDocService.docId=this.data.docId;
   }
 
   onEllipse(){
-    this.mode='Ellipse'
+    this.editDocService.mode='Ellipse'
   }
  onRec(){
-   this.mode='Rectangle'
+   this.editDocService.mode='Rectangle'
  }
  clearMarkers(){
-   this.editDocService.clearMarkers(this.doc.docId)
+   this.editDocService.clearMarkers()
  }
 }

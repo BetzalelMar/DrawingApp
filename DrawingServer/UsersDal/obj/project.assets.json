@@ -29,12 +29,22 @@
           "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
         }
       },
+      "WsContracts/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/WsContracts.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/WsContracts.dll": {}
+        }
+      },
       "DrawnigContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Contracts": "1.0.8",
-          "DALContracts": "1.0.0"
+          "DALContracts": "1.0.0",
+          "WsContracts": "1.0.2"
         },
         "compile": {
           "bin/placeholder/DrawnigContracts.dll": {}
@@ -78,6 +88,17 @@
         "lib/netstandard2.0/Oracle.ManagedDataAccess.dll",
         "odp.netcore.2.0.12.nupkg.sha512",
         "odp.netcore.nuspec"
+      ]
+    },
+    "WsContracts/1.0.2": {
+      "sha512": "0e/O0ttxGpFYiwqL8bI+SaQcMpZt41NOCuy9NGUQ5q6FH+n65hQQolqae2wF6uD3+FtzhSTuFAqWUbJafvwWAA==",
+      "type": "package",
+      "path": "wscontracts/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netcoreapp3.1/WsContracts.dll",
+        "wscontracts.1.0.2.nupkg.sha512",
+        "wscontracts.nuspec"
       ]
     },
     "DrawnigContracts/1.0.0": {

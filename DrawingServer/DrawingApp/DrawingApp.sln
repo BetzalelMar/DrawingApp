@@ -31,11 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBConvertor", "..\DBConvert
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkersDal", "..\MarkersDal\MarkersDal.csproj", "{A2372D45-031F-4F46-95EF-E8E9A0C39AA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedDal", "..\SharedDal\SharedDal.csproj", "{0C96EB42-174E-4E80-A25E-5D5F51A7A620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedDal", "..\SharedDal\SharedDal.csproj", "{0C96EB42-174E-4E80-A25E-5D5F51A7A620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedService", "..\SharedService\SharedService.csproj", "{D02E922A-1DC2-45AA-BECC-B91309F33ACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedService", "..\SharedService\SharedService.csproj", "{D02E922A-1DC2-45AA-BECC-B91309F33ACF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationService", "..\ValidationService\ValidationService.csproj", "{57AC9673-A774-4906-AD5D-3D1180514BF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationService", "..\ValidationService\ValidationService.csproj", "{57AC9673-A774-4906-AD5D-3D1180514BF4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WsAppService", "..\WsAppService\WsAppService.csproj", "{C2884681-F764-4E9B-9CC5-D9AC13C20BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapDocToUsersService", "..\MapDocToUsersService\MapDocToUsersService.csproj", "{D4D08E3B-D5C7-48AA-967D-480E3825A655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +107,14 @@ Global
 		{57AC9673-A774-4906-AD5D-3D1180514BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57AC9673-A774-4906-AD5D-3D1180514BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57AC9673-A774-4906-AD5D-3D1180514BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2884681-F764-4E9B-9CC5-D9AC13C20BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2884681-F764-4E9B-9CC5-D9AC13C20BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2884681-F764-4E9B-9CC5-D9AC13C20BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2884681-F764-4E9B-9CC5-D9AC13C20BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D08E3B-D5C7-48AA-967D-480E3825A655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D08E3B-D5C7-48AA-967D-480E3825A655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D08E3B-D5C7-48AA-967D-480E3825A655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D08E3B-D5C7-48AA-967D-480E3825A655}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +133,8 @@ Global
 		{0C96EB42-174E-4E80-A25E-5D5F51A7A620} = {26698CCA-2202-4442-8F8A-6A1288496932}
 		{D02E922A-1DC2-45AA-BECC-B91309F33ACF} = {2BC34387-6248-4BC2-8EB5-32BD6DDBC809}
 		{57AC9673-A774-4906-AD5D-3D1180514BF4} = {2BC34387-6248-4BC2-8EB5-32BD6DDBC809}
+		{C2884681-F764-4E9B-9CC5-D9AC13C20BDB} = {2BC34387-6248-4BC2-8EB5-32BD6DDBC809}
+		{D4D08E3B-D5C7-48AA-967D-480E3825A655} = {2BC34387-6248-4BC2-8EB5-32BD6DDBC809}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B85F8CC9-5FD5-4BB5-B2D4-F7B62B2AC4D7}

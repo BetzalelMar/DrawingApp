@@ -2,10 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.WebSockets;
+using System.Threading;
 using System.Threading.Tasks;
 using Contracts;
 using DALContracts;
 using DI;
+using DrawnigContracts.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,6 +18,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using ORDAL;
+using WsContracts;
+using WsService;
 
 namespace DrawingApp
 {
@@ -34,6 +39,7 @@ namespace DrawingApp
             var resolver = new Resolver(path, services);
             services.AddSingleton<IResolver>(sp => resolver);
             services.AddSingleton<IDALinfra, DALinfra>();
+            services.AddSingleton<IWsService, WsServiceImpl>();
             services.AddSwaggerGen();
             services.AddControllers();
         }
@@ -63,6 +69,31 @@ namespace DrawingApp
             {
                 endpoints.MapControllers();
             });
+            app.UseWebSockets();
+            app.Use(async (context, next) =>
+            {
+                if (context.Request.Path == "/ws")
+                {
+                    if (context.WebSockets.IsWebSocketRequest)
+                    {
+                        WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync();
+                        var id = context.Request.Query["id"];
+                        var WsAppService = app.ApplicationServices.GetService<IWsAppService>();
+                        WsAppService.Register(id, webSocket);
+                        await webSocket.ReceiveAsync(new Memory<byte>(), CancellationToken.None);
+
+                    }
+                    else
+                    {
+                        context.Response.StatusCode = 400;
+                    }
+                }
+                else
+                {
+                    await next();
+                }
+            });
+
         }
     }
 }

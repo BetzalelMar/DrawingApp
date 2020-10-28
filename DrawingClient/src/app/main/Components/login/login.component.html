@@ -1,6 +1,6 @@
-<mat-card color="primary">
-            <h1 mat-card-title >Log In Form</h1>
-        <mat-card-content [formGroup]="LogInForm" [style.fontSize.px]="18">
+
+            <h1 mat-dialog-title  >Log In Form</h1>
+        <mat-dialog-content [formGroup]="LogInForm" [style.fontSize.px]="18">
             <div>
                 <mat-form-field appearance="outline">
                     <mat-label>Enter your email</mat-label>
@@ -20,9 +20,11 @@
 
                 </mat-form-field>
             </div>
-        </mat-card-content>
-        <mat-card-actions>
+        </mat-dialog-content>
+        <mat-dialog-actions>
+            <button (click)='onClose()' class=" bikur-btn " mat-raised-button color="primary">Close</button>
             <button class="bikur-btn float-right" mat-flat-button mat-button color="primary"
                 [disabled]="!LogInForm.valid" (click)="onSubmit()">Submit</button>
-        </mat-card-actions>
-</mat-card>
+        </mat-dialog-actions>
+
+

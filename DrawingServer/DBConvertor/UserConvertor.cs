@@ -14,7 +14,8 @@ namespace DBConvertor
             var userData = new UserData
             {
                 userId = dataRow.Field<string>("USERID"),
-                userName = dataRow.Field<string>("USERNAME")
+                userName = dataRow.Field<string>("USERNAME"),
+                isLoggedIn =dataRow.Field<string>("IS_LOGIN")
             };
             return userData;
 

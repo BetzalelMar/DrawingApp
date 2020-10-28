@@ -1,3 +1,4 @@
+import { FreeDrawData } from './../../DTO/DATA/free-draw-data';
 import { Point } from './../../DTO/DATA/point';
 import { Injectable } from '@angular/core';
 import { Subject, Observable, Subscriber } from 'rxjs';
@@ -35,10 +36,10 @@ export class DrawingService {
 
   }
   clearCanvas(subjectId: string,){
-    this.onclearCanvas(subjectId).next(Marker);
+    this.onclearCanvas(subjectId).next();
   }
-  freeDraw(subjectId: string, points: Array<Point>) {
-    this.onDrawFree(subjectId).next(points);
+  freeDraw(subjectId: string,freeDrawData:FreeDrawData) {
+    this.onDrawFree(subjectId).next(freeDrawData);
   }
 
   drawEllipse(subjectId:string,Marker:Marker){

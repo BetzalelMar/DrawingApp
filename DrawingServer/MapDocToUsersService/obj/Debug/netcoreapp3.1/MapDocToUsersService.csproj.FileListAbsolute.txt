@@ -1,0 +1,10 @@
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.AssemblyInfoInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.AssemblyInfo.cs
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.csproj.CoreCompileInputs.cache
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.csproj.CopyComplete
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MapDocToUsersService.deps.json
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MapDocToUsersService.dll
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MapDocToUsersService.pdb
+C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.csprojAssemblyReference.cache

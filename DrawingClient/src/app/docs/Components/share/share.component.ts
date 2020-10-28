@@ -12,7 +12,7 @@ import { ResponseB } from 'src/app/DTO/Response/response';
 })
 export class ShareComponent implements OnInit {
 
-  constructor(@Inject(MAT_DIALOG_DATA) public data: any,private sharedDocService :SharedDocService,public dialogRef:MatDialogRef<ShareComponent>) { }
+  constructor(@Inject(MAT_DIALOG_DATA) public docId: any,private sharedDocService :SharedDocService,public dialogRef:MatDialogRef<ShareComponent>) { }
   
 
   userId:FormControl
@@ -24,7 +24,7 @@ export class ShareComponent implements OnInit {
     this.userId=new FormControl('',[Validators.required])
   }
   share(){
-    this.sharedDocService.AddShare(this.userId.value,this.data.docId)
+    this.sharedDocService.AddShare(this.userId.value,this.docId)
   }
 
 

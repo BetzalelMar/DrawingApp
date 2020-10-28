@@ -1,4 +1,8 @@
 <div class="img-container">
+    <div>
         <img class="mg-fluid img-thumbnail" src="assets\Pictures/{{doc.docUrl}}" alt="">
-    <app-drawing #Drawing [docId]="doc.docId"></app-drawing>
+        <app-drawing #Drawing [docId]="doc.docId"></app-drawing>
+    </div>
+    
+    <button  mat-icon-button color="primary" type="button" (click)="openShareDialog()"><mat-icon>share</mat-icon></button>
 </div>

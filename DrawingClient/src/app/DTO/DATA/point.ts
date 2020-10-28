@@ -1,6 +1,6 @@
 export class Point {
     constructor(public x: number, public y: number) { }
-
+   
     public add(pt: Point): Point {
         return new Point(this.x + pt.x, this.y + pt.y)
       }
