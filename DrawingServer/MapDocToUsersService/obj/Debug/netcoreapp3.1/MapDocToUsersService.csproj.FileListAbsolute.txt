@@ -7,4 +7,3 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUser
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MapDocToUsersService.deps.json
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MapDocToUsersService.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\MapDocToUsersService.pdb
-C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\MapDocToUsersService\obj\Debug\netcoreapp3.1\MapDocToUsersService.csprojAssemblyReference.cache

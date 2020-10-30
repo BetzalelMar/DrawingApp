@@ -1,3 +1,4 @@
+import { FreeDrawRequest } from './../../DTO/Request/free-draw-request';
 import { RemoveAllMarkersByDocRequest } from './../../DTO/Request/remove-all-markers-by-doc-request';
 import { GetAllMarkersRequest } from './../../DTO/Request/get-all-markers-request';
 import { Request } from './../../DTO/Request/request';
@@ -31,5 +32,9 @@ export class MarkerRemoteService {
   updateMarker(){
     
   }
+  AddFreeDraw(request:FreeDrawRequest):Observable<ResponseB>{
+    return this.commService.httpPost('api/FreeDraw',request)
+  }
+
 
 }

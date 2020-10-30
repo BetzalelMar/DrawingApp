@@ -15,7 +15,6 @@ C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DBConvertor\obj\
 C:\Users\BM\Desktop\גיבוי 2020\final project\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.csproj.CoreCompileInputs.cache
 C:\Users\BM\Desktop\final project\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.csprojAssemblyReference.cache
 C:\Users\BM\Desktop\final project\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.csproj.CoreCompileInputs.cache
-C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.csprojAssemblyReference.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.AssemblyInfoInputs.cache
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.AssemblyInfo.cs
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DBConvertor\obj\Debug\netcoreapp3.1\DBConvertor.csproj.CoreCompileInputs.cache

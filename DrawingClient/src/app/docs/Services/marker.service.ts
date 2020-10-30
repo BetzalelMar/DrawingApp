@@ -1,3 +1,4 @@
+import { FreeDrawData } from './../../DTO/DATA/free-draw-data';
 import { RemoveAllMarkersByDocRequest } from './../../DTO/Request/remove-all-markers-by-doc-request';
 import { ResponseB } from 'src/app/DTO/Response/response';
 import { Observable, Subject } from 'rxjs';
@@ -58,6 +59,11 @@ export class MarkerService {
     .pipe(map((response: ResponseB) => [this.ResponseSubject[response.responseType],response]))
     .subscribe(([subject,res]:[Subject<any>,any])=>subject.next(res))
 
+  }
+
+  FreeDraw(freeDrawData:FreeDrawData):Observable<ResponseB>{
+    freeDrawData.userId=this.userDetailsService.userId;
+    return this.markerRemoteService.AddFreeDraw({freeDrawData:freeDrawData})
   }
 
   updateMarker() {

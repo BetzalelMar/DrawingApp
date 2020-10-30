@@ -45,7 +45,8 @@ export class DocGalleryComponent implements OnInit, AfterViewInit {
     var dialogRef2 = this.dialog.open(EditDocComponent, {
       height: '700px',
       width: '1000px',
-      data: doc
+      data: doc,
+      disableClose:true
     })
   }
 

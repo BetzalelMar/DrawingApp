@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PhtZTkgZt0pw1kVSmv6m8kPTTUametXNPatIKX9l3us/kEglv/6JWGUUr5qRtSDNs38+Wsde9hPSA3AiJzyqVw==",
+  "dgSpecHash": "tm0ejcXNxxSuY4KvfRsatfZguT/Sz9wBkvguLZI1QxFGm+/7Q2hsmlt8O8/a/W/ehPCzEncTwk1lPexFUOe3xA==",
   "success": true,
   "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\WsAppService\\WsAppService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
     "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512",
-    "C:\\Users\\BM\\.nuget\\packages\\wscontracts\\1.0.2\\wscontracts.1.0.2.nupkg.sha512"
+    "C:\\Users\\BM\\.nuget\\packages\\wscontracts\\1.0.4\\wscontracts.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

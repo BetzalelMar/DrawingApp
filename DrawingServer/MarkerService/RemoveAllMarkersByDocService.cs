@@ -15,9 +15,11 @@ namespace MarkerService
     class RemoveAllMarkersByDocService : IRemoveAllMarkersByDocService
     {
         IMarkersDal _dal;
-        public RemoveAllMarkersByDocService(IMarkersDal dal)
+        IWsAppService _wsService;
+        public RemoveAllMarkersByDocService(IMarkersDal dal,IWsAppService wsService)
         {
             _dal = dal;
+            _wsService = wsService;
         }
 
         public Response RemoveAllMarkersByDoc(RemoveAllMarkersByDocRequest request)
@@ -33,6 +35,7 @@ namespace MarkerService
                     var list = new List<string>();
                     list.Add(request.docId);
                     retval = new RemoveAllMarkersByDocResponseOk(list);
+                    _wsService.sendClear(request.docId,request.userId);
                 }
             }
             catch (Exception)

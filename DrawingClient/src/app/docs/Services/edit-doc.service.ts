@@ -27,6 +27,8 @@ export class EditDocService {
   polySubject: Subject<Point> = new Subject<Point>()
 
   freeDraw(freeDrawData:FreeDrawData) {
+    freeDrawData.docId=this.docId
+    this.markerService.FreeDraw(freeDrawData).subscribe();
     this.drawingService.DrawingFunc['Free'](this.docId,freeDrawData)
     this.polySubject.next(freeDrawData.from)
     this.polySubject.next(freeDrawData.to)
@@ -41,7 +43,7 @@ export class EditDocService {
   clearMarkers(){
     this.markerService.RemoveAllMarkersByDoc(this.docId)
     this.markerService.onRemoveAllMarkersByDocOk.pipe(map((res:ResponseB)=>res.responseData[0]))
-    .subscribe(docData=>this.drawingService.clearCanvas(docData.docId))
+    .subscribe(docData=>this.drawingService.clearCanvas(this.docId))
   }
  
  mouseEvents(canvas:HTMLCanvasElement){

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WMLY7NyjMzEYaz9mosb+xUXAkh9MIlbXBdSQxtoxMyVlG78Z/QG3HzEs7/NXgCGigvJHtsz3rv8IcJfOICuItA==",
+  "dgSpecHash": "AT26ncAJy/W/xztGut1UD6XJUJGA9dMZeENr0EYdpp273SkKGk0tVWNRd0U+XI6UOAxtgJCvU3FcQCtFBcwxrw==",
   "success": true,
   "projectFilePath": "C:\\Users\\BM\\Desktop\\final project\\gitClone\\DrawingApp\\DrawingServer\\MarkerService\\MarkerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BM\\.nuget\\packages\\contracts\\1.0.8\\contracts.1.0.8.nupkg.sha512",
     "C:\\Users\\BM\\.nuget\\packages\\dalcontracts\\1.0.0\\dalcontracts.1.0.0.nupkg.sha512",
-    "C:\\Users\\BM\\.nuget\\packages\\wscontracts\\1.0.2\\wscontracts.1.0.2.nupkg.sha512"
+    "C:\\Users\\BM\\.nuget\\packages\\wscontracts\\1.0.4\\wscontracts.1.0.4.nupkg.sha512"
   ],
   "logs": []
 }

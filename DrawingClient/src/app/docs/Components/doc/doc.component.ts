@@ -38,6 +38,10 @@ export class DocComponent implements OnInit, AfterViewInit {
   }
 
   openShareDialog() {
+    this.dialog.open(ShareComponent,{
+      disableClose:true,
+      data:this.doc.docId
+    })
   }
 
 

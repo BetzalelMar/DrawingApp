@@ -7,6 +7,7 @@ namespace DrawnigContracts.DTO.FreeDraw
 {
     public class FreeDrawData
     {
+        public string docId { get; set; }
         public string userId { get; set; }
         public Point from { get; set; }
         public Point to { get; set; }

@@ -7,5 +7,7 @@ namespace DrawnigContracts.DTO.MarkersDTO
     public class RemoveAllMarkersByDocRequest
     {
         public string docId { get; set; }
+        public string userId { get; set; }
+
     }
 }

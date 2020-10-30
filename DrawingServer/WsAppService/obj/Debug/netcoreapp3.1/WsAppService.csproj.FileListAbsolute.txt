@@ -7,4 +7,3 @@ C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\WsAppService
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\WsAppService.deps.json
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\WsAppService.dll
 C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\DrawingApp\bin\Debug\netcoreapp3.1\dlls\netcoreapp3.1\WsAppService.pdb
-C:\Users\BM\Desktop\final project\gitClone\DrawingApp\DrawingServer\WsAppService\obj\Debug\netcoreapp3.1\WsAppService.csprojAssemblyReference.cache

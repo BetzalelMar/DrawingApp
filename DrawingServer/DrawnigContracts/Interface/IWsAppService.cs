@@ -14,5 +14,6 @@ namespace DrawnigContracts.Interface
         void sendMarker(string docId,MarkerData marker);
         void sendDoc(string userId,DocInfra doc);
         void sendFreeDraw(string docId,FreeDrawData marker);
+        void sendClear(string docId,string userId);
     }
 }
